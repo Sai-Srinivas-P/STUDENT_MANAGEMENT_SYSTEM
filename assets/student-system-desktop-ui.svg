@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef3f8"/><stop offset="1" stop-color="#d7e0ea"/></linearGradient>
+<linearGradient id="h" x1="0" x2="1"><stop stop-color="#243447"/><stop offset="1" stop-color="#34495e"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="560" rx="24" fill="url(#w)"/>
+<rect x="55" y="38" width="1090" height="484" rx="18" fill="#f8fafc" filter="url(#s)"/>
+<rect x="55" y="38" width="1090" height="46" rx="18" fill="url(#h)"/>
+<circle cx="79" cy="61" r="6" fill="#ff6b6b"/><circle cx="99" cy="61" r="6" fill="#ffd166"/><circle cx="119" cy="61" r="6" fill="#72e49d"/>
+<text x="148" y="67" fill="#edf3f8" font-family="Arial" font-size="14" font-weight="700">Student Management System</text>
+<text x="965" y="67" fill="#9fb0bf" font-family="Arial" font-size="11">WINFORMS / MYSQL</text>
+<rect x="55" y="84" width="205" height="438" fill="#1e2c3a"/>
+<text x="80" y="118" fill="#7fd7ff" font-family="Arial" font-size="12" font-weight="700">CONTROL PANEL</text>
+<g font-family="Arial" font-size="13">
+<rect x="72" y="138" width="171" height="34" rx="9" fill="#2d8cff"/><text x="92" y="160" fill="#fff" font-weight="700">Dashboard</text>
+<text x="92" y="203" fill="#b8c5d0">Students</text><text x="92" y="246" fill="#b8c5d0">Registration</text><text x="92" y="289" fill="#b8c5d0">Courses</text><text x="92" y="332" fill="#b8c5d0">Manage Courses</text><text x="92" y="375" fill="#b8c5d0">Print Records</text>
+</g>
+<text x="292" y="126" fill="#243447" font-family="Arial" font-size="26" font-weight="700">Student dashboard</text>
+<text x="292" y="150" fill="#738291" font-family="Arial" font-size="12">Desktop UI concept based on the forms and controls shipped in the repository</text>
+<g font-family="Arial">
+<rect x="292" y="177" width="205" height="92" rx="14" fill="#fff" stroke="#d8e0e8"/><text x="312" y="202" fill="#66788a" font-size="11" font-weight="700">TOTAL STUDENTS</text><text x="312" y="240" fill="#243447" font-size="29" font-weight="700">128</text>
+<rect x="515" y="177" width="205" height="92" rx="14" fill="#fff" stroke="#d8e0e8"/><text x="535" y="202" fill="#66788a" font-size="11" font-weight="700">MALE</text><text x="535" y="240" fill="#243447" font-size="29" font-weight="700">71</text>
+<rect x="738" y="177" width="205" height="92" rx="14" fill="#fff" stroke="#d8e0e8"/><text x="758" y="202" fill="#66788a" font-size="11" font-weight="700">FEMALE</text><text x="758" y="240" fill="#243447" font-size="29" font-weight="700">57</text>
+</g>
+<rect x="292" y="292" width="651" height="175" rx="14" fill="#fff" stroke="#d8e0e8"/>
+<text x="314" y="319" fill="#243447" font-family="Arial" font-size="14" font-weight="700">Recent student records</text>
+<rect x="314" y="335" width="607" height="28" rx="7" fill="#eef3f7"/>
+<g fill="#687989" font-family="Arial" font-size="10" font-weight="700"><text x="326" y="353">ID</text><text x="370" y="353">NAME</text><text x="540" y="353">GENDER</text><text x="620" y="353">CONTACT</text><text x="744" y="353">ADDRESS</text></g>
+<g font-family="Arial" font-size="10" fill="#425466">
+<text x="326" y="384">101</text><text x="370" y="384">Aarav Rao</text><text x="540" y="384">Male</text><text x="620" y="384">9000••••••</text><text x="744" y="384">Hyderabad</text>
+<text x="326" y="416">102</text><text x="370" y="416">Ananya Shah</text><text x="540" y="416">Female</text><text x="620" y="416">9001••••••</text><text x="744" y="416">Vijayawada</text>
+<text x="326" y="448">103</text><text x="370" y="448">Rohan Patel</text><text x="540" y="448">Male</text><text x="620" y="448">9002••••••</text><text x="744" y="448">Bengaluru</text>
+</g>
+<circle cx="965" cy="458" r="8" fill="#2d8cff"><animate attributeName="r" values="8;15;8" dur="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle>
+<text x="985" y="463" fill="#647586" font-family="Arial" font-size="10">MySQL connected</text>
+</svg>
