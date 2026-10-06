@@ -1,17 +1,32 @@
-<div align="center">
+# Student Management System
 
-  <img src="assets/student-system-desktop-ui.svg" alt="Student Management System desktop UI overview" width="100%" />
+**WINDOWS DESKTOP OPERATOR MANUAL**
 
-  <h1>Student Management System</h1>
-  <p><strong>A Windows desktop student-record and course-management application built with C# WinForms and MySQL.</strong></p>
+```text
+┌───────────────────────────────────────────────────────────────────┐
+│ STUDENT MANAGEMENT SYSTEM                               ONLINE   │
+├───────────────┬───────────────────────────────────────────────────┤
+│ DASHBOARD     │ TOTAL STUDENTS      MALE      FEMALE             │
+│ STUDENTS      │      [  ]           [ ]        [ ]               │
+│ COURSES       │                                                     │
+│ PRINT         │  Student records  →  MySQL                         │
+└───────────────┴───────────────────────────────────────────────────┘
+```
 
-  <img src="https://img.shields.io/badge/WINDOWS-Desktop-243447?style=for-the-badge" alt="Windows desktop" />
-  <img src="https://img.shields.io/badge/.NET%20FRAMEWORK-4.7.2-243447?style=for-the-badge&logo=.net&logoColor=white" alt=".NET Framework 4.7.2" />
-  <img src="https://img.shields.io/badge/MYSQL-Database-243447?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/WINFORMS-C%23-243447?style=for-the-badge&logo=csharp&logoColor=white" alt="C# WinForms" />
-</div>
+> **Desktop-first README.** This repository is a Windows WinForms application, not a web application, not a REST API, and not a modern .NET Core service.
 
-> **Desktop-first documentation:** this repository is a Windows WinForms application, not a web application.
+<img src="assets/student-system-desktop-ui.svg" alt="Student Management System desktop interface overview" width="96%" />
+
+<table>
+<tr>
+<td><strong>RUNTIME</strong><br/>.NET Framework 4.7.2</td>
+<td><strong>UI</strong><br/>C# WinForms</td>
+<td><strong>DATA</strong><br/>MySQL + ADO.NET</td>
+<td><strong>REPORTING</strong><br/>DataGridView + DGVPrinter</td>
+</tr>
+</table>
+
+---
 
 ## 🖥️ The application
 
